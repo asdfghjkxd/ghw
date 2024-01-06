@@ -27,7 +27,6 @@ public class Game {
         }
 
         printExit(userScore);
-        inputScanner.close();
     }
 
     private static void printGreeting() {

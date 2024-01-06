@@ -1,4 +1,5 @@
 import helloWorld.HelloWorld;
+import rng.RNG;
 import rockPaperScissors.Game;
 import sort.Sort;
 
@@ -26,5 +27,9 @@ public class MainChallengeExecutor {
         Sort.sort(toSort);
         System.out.println("After sorting: " + toSort);
         System.out.println("Check out SortTest for unit test cases");
+
+        System.out.println("\nBuild a random number generator");
+        System.out.println("--------------------------------");
+        RNG.main(zeroArgInput);
     }
 }
